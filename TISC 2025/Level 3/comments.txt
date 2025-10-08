@@ -1,0 +1,4240 @@
+G28 ; home all axes
+G1 X0 Y0 Z0.2 F1500 E15 ; purging
+G1 X5 Y10 Z0.2 F3000 ; get ready to prime
+G92 E0 ; reset extrusion distance
+; process Process1
+; layer 1, Z = 0.240
+; feature outer perimeter
+; tool H0.240 W0.480
+; feature inner perimeter
+; feature solid layer
+; layer 2, Z = 0.440
+; feature outer perimeter
+; tool H0.200 W0.400
+; feature inner perimeter
+; feature solid layer
+; layer 3, Z = 0.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 4, Z = 0.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 5, Z = 1.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 6, Z = 1.240
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 7, Z = 1.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 8, Z = 1.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 9, Z = 1.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 10, Z = 2.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 11, Z = 2.240
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 12, Z = 2.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 13, Z = 2.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 14, Z = 2.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 15, Z = 3.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 16, Z = 3.240
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 17, Z = 3.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 18, Z = 3.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 19, Z = 3.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 20, Z = 4.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 21, Z = 4.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 22, Z = 4.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 23, Z = 4.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 24, Z = 4.840
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 25, Z = 5.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 26, Z = 5.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 27, Z = 5.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 28, Z = 5.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 29, Z = 5.840
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 30, Z = 6.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 31, Z = 6.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 32, Z = 6.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature gap fill
+; layer 33, Z = 6.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature gap fill
+; layer 34, Z = 6.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; layer 35, Z = 7.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; layer 36, Z = 7.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 37, Z = 7.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 38, Z = 7.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 39, Z = 7.840
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 40, Z = 8.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 41, Z = 8.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 42, Z = 8.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 43, Z = 8.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 44, Z = 8.840
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 45, Z = 9.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 46, Z = 9.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 47, Z = 9.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 48, Z = 9.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 49, Z = 9.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 50, Z = 10.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; layer 51, Z = 10.240
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 52, Z = 10.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 53, Z = 10.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 54, Z = 10.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 55, Z = 11.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 56, Z = 11.240
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 57, Z = 11.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 58, Z = 11.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 59, Z = 11.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 60, Z = 12.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 61, Z = 12.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 62, Z = 12.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 63, Z = 12.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 64, Z = 12.840
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 65, Z = 13.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 66, Z = 13.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 67, Z = 13.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 68, Z = 13.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 69, Z = 13.840
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 70, Z = 14.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 71, Z = 14.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 72, Z = 14.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 73, Z = 14.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 74, Z = 14.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 75, Z = 15.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 76, Z = 15.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 77, Z = 15.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 78, Z = 15.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 79, Z = 15.840
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 80, Z = 16.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 81, Z = 16.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 82, Z = 16.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 83, Z = 16.640
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 84, Z = 16.840
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 85, Z = 17.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 86, Z = 17.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 87, Z = 17.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 88, Z = 17.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 89, Z = 17.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 90, Z = 18.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 91, Z = 18.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 92, Z = 18.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 93, Z = 18.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 94, Z = 18.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 95, Z = 19.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 96, Z = 19.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 97, Z = 19.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 98, Z = 19.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 99, Z = 19.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 100, Z = 20.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 101, Z = 20.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 102, Z = 20.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 103, Z = 20.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 104, Z = 20.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 105, Z = 21.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 106, Z = 21.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 107, Z = 21.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 108, Z = 21.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 109, Z = 21.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 110, Z = 22.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 111, Z = 22.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 112, Z = 22.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 113, Z = 22.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 114, Z = 22.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 115, Z = 23.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 116, Z = 23.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 117, Z = 23.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 118, Z = 23.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 119, Z = 23.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 120, Z = 24.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 121, Z = 24.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature gap fill
+; feature outer perimeter
+; feature gap fill
+; layer 122, Z = 24.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 123, Z = 24.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 124, Z = 24.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 125, Z = 25.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 126, Z = 25.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 127, Z = 25.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 128, Z = 25.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 129, Z = 25.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 130, Z = 26.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 131, Z = 26.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 132, Z = 26.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 133, Z = 26.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 134, Z = 26.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 135, Z = 27.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 136, Z = 27.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 137, Z = 27.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 138, Z = 27.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 139, Z = 27.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 140, Z = 28.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 141, Z = 28.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 142, Z = 28.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 143, Z = 28.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 144, Z = 28.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 145, Z = 29.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 146, Z = 29.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 147, Z = 29.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 148, Z = 29.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 149, Z = 29.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 150, Z = 30.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 151, Z = 30.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 152, Z = 30.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 153, Z = 30.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 154, Z = 30.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 155, Z = 31.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 156, Z = 31.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 157, Z = 31.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 158, Z = 31.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 159, Z = 31.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 160, Z = 32.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 161, Z = 32.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 162, Z = 32.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 163, Z = 32.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 164, Z = 32.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 165, Z = 33.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 166, Z = 33.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 167, Z = 33.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 168, Z = 33.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 169, Z = 33.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 170, Z = 34.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 171, Z = 34.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 172, Z = 34.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 173, Z = 34.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 174, Z = 34.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 175, Z = 35.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 176, Z = 35.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 177, Z = 35.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 178, Z = 35.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 179, Z = 35.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 180, Z = 36.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 181, Z = 36.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 182, Z = 36.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 183, Z = 36.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 184, Z = 36.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 185, Z = 37.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 186, Z = 37.240
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 187, Z = 37.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 188, Z = 37.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 189, Z = 37.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 190, Z = 38.040
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 191, Z = 38.240
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 192, Z = 38.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 193, Z = 38.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 194, Z = 38.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 195, Z = 39.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 196, Z = 39.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 197, Z = 39.440
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 198, Z = 39.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 199, Z = 39.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 200, Z = 40.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 201, Z = 40.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 202, Z = 40.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 203, Z = 40.640
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 204, Z = 40.840
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 205, Z = 41.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 206, Z = 41.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 207, Z = 41.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 208, Z = 41.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 209, Z = 41.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 210, Z = 42.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 211, Z = 42.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 212, Z = 42.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 213, Z = 42.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 214, Z = 42.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 215, Z = 43.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 216, Z = 43.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 217, Z = 43.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 218, Z = 43.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 219, Z = 43.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 220, Z = 44.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 221, Z = 44.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 222, Z = 44.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 223, Z = 44.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 224, Z = 44.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 225, Z = 45.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 226, Z = 45.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 227, Z = 45.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 228, Z = 45.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 229, Z = 45.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 230, Z = 46.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 231, Z = 46.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 232, Z = 46.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 233, Z = 46.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature gap fill
+; layer 234, Z = 46.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 235, Z = 47.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 236, Z = 47.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 237, Z = 47.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 238, Z = 47.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 239, Z = 47.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 240, Z = 48.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 241, Z = 48.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 242, Z = 48.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 243, Z = 48.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 244, Z = 48.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 245, Z = 49.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 246, Z = 49.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 247, Z = 49.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 248, Z = 49.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 249, Z = 49.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 250, Z = 50.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 251, Z = 50.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 252, Z = 50.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 253, Z = 50.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 254, Z = 50.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 255, Z = 51.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 256, Z = 51.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 257, Z = 51.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 258, Z = 51.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 259, Z = 51.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 260, Z = 52.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 261, Z = 52.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 262, Z = 52.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 263, Z = 52.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 264, Z = 52.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 265, Z = 53.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 266, Z = 53.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 267, Z = 53.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 268, Z = 53.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 269, Z = 53.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 270, Z = 54.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 271, Z = 54.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 272, Z = 54.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 273, Z = 54.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 274, Z = 54.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 275, Z = 55.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 276, Z = 55.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 277, Z = 55.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 278, Z = 55.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 279, Z = 55.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 280, Z = 56.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 281, Z = 56.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 282, Z = 56.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 283, Z = 56.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 284, Z = 56.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 285, Z = 57.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 286, Z = 57.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 287, Z = 57.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 288, Z = 57.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 289, Z = 57.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 290, Z = 58.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 291, Z = 58.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 292, Z = 58.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 293, Z = 58.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 294, Z = 58.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 295, Z = 59.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 296, Z = 59.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 297, Z = 59.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 298, Z = 59.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 299, Z = 59.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 300, Z = 60.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 301, Z = 60.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 302, Z = 60.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 303, Z = 60.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 304, Z = 60.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; layer 305, Z = 61.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 306, Z = 61.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 307, Z = 61.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 308, Z = 61.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 309, Z = 61.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 310, Z = 62.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 311, Z = 62.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 312, Z = 62.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature infill
+; layer 313, Z = 62.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 314, Z = 62.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 315, Z = 63.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature solid layer
+; feature infill
+; layer 316, Z = 63.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 317, Z = 63.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 318, Z = 63.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 319, Z = 63.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 320, Z = 64.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 321, Z = 64.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 322, Z = 64.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 323, Z = 64.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 324, Z = 64.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 325, Z = 65.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 326, Z = 65.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 327, Z = 65.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 328, Z = 65.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 329, Z = 65.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 330, Z = 66.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 331, Z = 66.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; layer 332, Z = 66.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 333, Z = 66.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 334, Z = 66.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 335, Z = 67.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 336, Z = 67.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 337, Z = 67.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 338, Z = 67.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 339, Z = 67.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 340, Z = 68.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 341, Z = 68.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 342, Z = 68.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 343, Z = 68.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 344, Z = 68.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 345, Z = 69.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 346, Z = 69.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; layer 347, Z = 69.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 348, Z = 69.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature infill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 349, Z = 69.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 350, Z = 70.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 351, Z = 70.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 352, Z = 70.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 353, Z = 70.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 354, Z = 70.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 355, Z = 71.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 356, Z = 71.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 357, Z = 71.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 358, Z = 71.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 359, Z = 71.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; layer 360, Z = 72.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; layer 361, Z = 72.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 362, Z = 72.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; layer 363, Z = 72.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 364, Z = 72.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 365, Z = 73.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 366, Z = 73.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature gap fill
+; feature outer perimeter
+; feature gap fill
+; layer 367, Z = 73.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature gap fill
+; layer 368, Z = 73.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; layer 369, Z = 73.840
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; layer 370, Z = 74.040
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 371, Z = 74.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 372, Z = 74.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 373, Z = 74.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 374, Z = 74.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 375, Z = 75.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 376, Z = 75.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 377, Z = 75.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 378, Z = 75.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 379, Z = 75.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 380, Z = 76.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 381, Z = 76.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 382, Z = 76.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 383, Z = 76.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 384, Z = 76.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 385, Z = 77.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 386, Z = 77.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 387, Z = 77.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 388, Z = 77.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 389, Z = 77.840
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 390, Z = 78.040
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 391, Z = 78.240
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 392, Z = 78.440
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 393, Z = 78.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 394, Z = 78.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 395, Z = 79.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 396, Z = 79.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 397, Z = 79.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 398, Z = 79.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 399, Z = 79.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 400, Z = 80.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 401, Z = 80.240
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 402, Z = 80.440
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 403, Z = 80.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 404, Z = 80.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 405, Z = 81.040
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 406, Z = 81.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 407, Z = 81.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 408, Z = 81.640
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 409, Z = 81.840
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 410, Z = 82.040
+; feature outer perimeter
+; feature inner perimeter
+; feature outer perimeter
+; feature inner perimeter
+; layer 411, Z = 82.240
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 412, Z = 82.440
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; feature outer perimeter
+; feature inner perimeter
+; feature solid layer
+; layer 413, Z = 82.640
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; feature outer perimeter
+; feature inner perimeter
+; feature gap fill
+; layer 414, Z = 82.840
+; feature outer perimeter
+; feature gap fill
+; feature outer perimeter
+; feature gap fill
+; layer end
+G28 X0 ; home X axis
+M106 S0 ; turn off cooling fan
+M104 S0 ; turn off extruder
+M140 S0 ; turn off bed
+M84 ; disable motors
+; Build Summary
+;   Build time: 3 hours 20 minutes
+;   Filament length: 9095.3 mm (9.10 m)
+;   Plastic volume: 21876.66 mm^3 (21.88 cc)
+;   Plastic weight: 27.35 g (0.06 lb)
+;   Material cost: 1.26

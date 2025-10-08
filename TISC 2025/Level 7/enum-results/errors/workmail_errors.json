@@ -1,0 +1,1 @@
+{"workmail":["{\"ListOrganizations\":\"operation error WorkMail: ListOrganizations, exceeded maximum number of attempts, 3, https response error StatusCode: 0, RequestID: , request send failed, Post \\\"https://workmail.ap-southeast-1.amazonaws.com/\\\": dial tcp: lookup workmail.ap-southeast-1.amazonaws.com on 10.255.255.254:53: no such host\"}"]}

@@ -1,0 +1,1174 @@
+=== Testing cloudformation activate-organizations-access ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation activate-type ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation batch-describe-type-configurations ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --type-configuration-identifiers
+
+=== Testing cloudformation cancel-update-stack ===
+
+An error occurred (AccessDenied) when calling the CancelUpdateStack operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:CancelUpdateStack on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:CancelUpdateStack action
+
+=== Testing cloudformation continue-update-rollback ===
+
+An error occurred (AccessDenied) when calling the ContinueUpdateRollback operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:ContinueUpdateRollback on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:ContinueUpdateRollback action
+
+=== Testing cloudformation create-change-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --change-set-name
+
+=== Testing cloudformation create-generated-template ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --generated-template-name
+
+=== Testing cloudformation create-stack ===
+
+An error occurred (AccessDenied) when calling the CreateStack operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/* because no identity-based policy allows the cloudformation:CreateStack action
+
+=== Testing cloudformation create-stack-instances ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name, --regions
+
+=== Testing cloudformation create-stack-refactor ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: argument operation: Invalid choice, valid choices are:
+
+activate-organizations-access            | activate-type                           
+batch-describe-type-configurations       | cancel-update-stack                     
+continue-update-rollback                 | create-change-set                       
+create-generated-template                | create-stack                            
+create-stack-instances                   | create-stack-set                        
+deactivate-organizations-access          | deactivate-type                         
+delete-change-set                        | delete-generated-template               
+delete-stack                             | delete-stack-instances                  
+delete-stack-set                         | deregister-type                         
+describe-account-limits                  | describe-change-set                     
+describe-change-set-hooks                | describe-generated-template             
+describe-organizations-access            | describe-publisher                      
+describe-resource-scan                   | describe-stack-drift-detection-status   
+describe-stack-events                    | describe-stack-instance                 
+describe-stack-resource                  | describe-stack-resource-drifts          
+describe-stack-resources                 | describe-stack-set                      
+describe-stack-set-operation             | describe-stacks                         
+describe-type                            | describe-type-registration              
+detect-stack-drift                       | detect-stack-resource-drift             
+detect-stack-set-drift                   | estimate-template-cost                  
+execute-change-set                       | get-generated-template                  
+get-stack-policy                         | get-template                            
+get-template-summary                     | import-stacks-to-stack-set              
+list-change-sets                         | list-exports                            
+list-generated-templates                 | list-hook-results                       
+list-imports                             | list-resource-scan-related-resources    
+list-resource-scan-resources             | list-resource-scans                     
+list-stack-instance-resource-drifts      | list-stack-instances                    
+list-stack-resources                     | list-stack-set-auto-deployment-targets  
+list-stack-set-operation-results         | list-stack-set-operations               
+list-stack-sets                          | list-stacks                             
+list-type-registrations                  | list-type-versions                      
+list-types                               | publish-type                            
+record-handler-progress                  | register-publisher                      
+register-type                            | rollback-stack                          
+set-stack-policy                         | set-type-configuration                  
+set-type-default-version                 | signal-resource                         
+start-resource-scan                      | stop-stack-set-operation                
+test-type                                | update-generated-template               
+update-stack                             | update-stack-instances                  
+update-stack-set                         | update-termination-protection           
+validate-template                        | package                                 
+deploy                                   | wait                                    
+help                                    
+
+
+Invalid choice: 'create-stack-refactor', maybe you meant:
+
+  * create-stack-set
+
+=== Testing cloudformation create-stack-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation deactivate-organizations-access ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation deactivate-type ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation delete-change-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --change-set-name
+
+=== Testing cloudformation delete-generated-template ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --generated-template-name
+
+=== Testing cloudformation delete-stack ===
+
+An error occurred (AccessDenied) when calling the DeleteStack operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:DeleteStack on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:DeleteStack action
+
+=== Testing cloudformation delete-stack-instances ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name, --regions
+
+=== Testing cloudformation delete-stack-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation deploy ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --template-file
+
+=== Testing cloudformation deregister-type ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation describe-account-limits ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation describe-change-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --change-set-name
+
+=== Testing cloudformation describe-change-set-hooks ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --change-set-name
+
+=== Testing cloudformation describe-generated-template ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --generated-template-name
+
+=== Testing cloudformation describe-organizations-access ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation describe-publisher ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation describe-resource-scan ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --resource-scan-id
+
+=== Testing cloudformation describe-stack-drift-detection-status ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-drift-detection-id
+
+=== Testing cloudformation describe-stack-events ===
+
+An error occurred (AccessDenied) when calling the DescribeStackEvents operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:DescribeStackEvents on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:DescribeStackEvents action
+
+=== Testing cloudformation describe-stack-instance ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name, --stack-instance-account, --stack-instance-region
+
+=== Testing cloudformation describe-stack-refactor ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: argument operation: Invalid choice, valid choices are:
+
+activate-organizations-access            | activate-type                           
+batch-describe-type-configurations       | cancel-update-stack                     
+continue-update-rollback                 | create-change-set                       
+create-generated-template                | create-stack                            
+create-stack-instances                   | create-stack-set                        
+deactivate-organizations-access          | deactivate-type                         
+delete-change-set                        | delete-generated-template               
+delete-stack                             | delete-stack-instances                  
+delete-stack-set                         | deregister-type                         
+describe-account-limits                  | describe-change-set                     
+describe-change-set-hooks                | describe-generated-template             
+describe-organizations-access            | describe-publisher                      
+describe-resource-scan                   | describe-stack-drift-detection-status   
+describe-stack-events                    | describe-stack-instance                 
+describe-stack-resource                  | describe-stack-resource-drifts          
+describe-stack-resources                 | describe-stack-set                      
+describe-stack-set-operation             | describe-stacks                         
+describe-type                            | describe-type-registration              
+detect-stack-drift                       | detect-stack-resource-drift             
+detect-stack-set-drift                   | estimate-template-cost                  
+execute-change-set                       | get-generated-template                  
+get-stack-policy                         | get-template                            
+get-template-summary                     | import-stacks-to-stack-set              
+list-change-sets                         | list-exports                            
+list-generated-templates                 | list-hook-results                       
+list-imports                             | list-resource-scan-related-resources    
+list-resource-scan-resources             | list-resource-scans                     
+list-stack-instance-resource-drifts      | list-stack-instances                    
+list-stack-resources                     | list-stack-set-auto-deployment-targets  
+list-stack-set-operation-results         | list-stack-set-operations               
+list-stack-sets                          | list-stacks                             
+list-type-registrations                  | list-type-versions                      
+list-types                               | publish-type                            
+record-handler-progress                  | register-publisher                      
+register-type                            | rollback-stack                          
+set-stack-policy                         | set-type-configuration                  
+set-type-default-version                 | signal-resource                         
+start-resource-scan                      | stop-stack-set-operation                
+test-type                                | update-generated-template               
+update-stack                             | update-stack-instances                  
+update-stack-set                         | update-termination-protection           
+validate-template                        | package                                 
+deploy                                   | wait                                    
+help                                    
+
+
+Invalid choice: 'describe-stack-refactor', maybe you meant:
+
+  * describe-stack-set
+  * describe-stack-resource
+  * describe-stack-resources
+
+=== Testing cloudformation describe-stack-resource ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --logical-resource-id
+
+=== Testing cloudformation describe-stack-resource-drifts ===
+
+An error occurred (AccessDenied) when calling the DescribeStackResourceDrifts operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:DescribeStackResourceDrifts on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:DescribeStackResourceDrifts action
+
+=== Testing cloudformation describe-stack-resources ===
+
+An error occurred (AccessDenied) when calling the DescribeStackResources operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:DescribeStackResources on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:DescribeStackResources action
+
+=== Testing cloudformation describe-stack-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation describe-stack-set-operation ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name, --operation-id
+
+=== Testing cloudformation describe-stacks ===
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d",
+            "StackName": "pawxy-sandbox-dec86ef2",
+            "Description": "Flag part 2\n",
+            "Parameters": [
+                {
+                    "ParameterKey": "flagpt2",
+                    "ParameterValue": "****"
+                }
+            ],
+            "CreationTime": "2025-09-27T12:41:32.427Z",
+            "RollbackConfiguration": {},
+            "StackStatus": "CREATE_FAILED",
+            "StackStatusReason": "The following resource(s) failed to create: [AppDataStore]. ",
+            "DisableRollback": true,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "Tags": [],
+            "EnableTerminationProtection": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
+
+=== Testing cloudformation describe-type ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation describe-type-registration ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --registration-token
+
+=== Testing cloudformation detect-stack-drift ===
+
+An error occurred (AccessDenied) when calling the DetectStackDrift operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:DetectStackResourceDrift on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:DetectStackResourceDrift action
+
+=== Testing cloudformation detect-stack-resource-drift ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --logical-resource-id
+
+=== Testing cloudformation detect-stack-set-drift ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation estimate-template-cost ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation execute-change-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --change-set-name
+
+=== Testing cloudformation execute-stack-refactor ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: argument operation: Invalid choice, valid choices are:
+
+activate-organizations-access            | activate-type                           
+batch-describe-type-configurations       | cancel-update-stack                     
+continue-update-rollback                 | create-change-set                       
+create-generated-template                | create-stack                            
+create-stack-instances                   | create-stack-set                        
+deactivate-organizations-access          | deactivate-type                         
+delete-change-set                        | delete-generated-template               
+delete-stack                             | delete-stack-instances                  
+delete-stack-set                         | deregister-type                         
+describe-account-limits                  | describe-change-set                     
+describe-change-set-hooks                | describe-generated-template             
+describe-organizations-access            | describe-publisher                      
+describe-resource-scan                   | describe-stack-drift-detection-status   
+describe-stack-events                    | describe-stack-instance                 
+describe-stack-resource                  | describe-stack-resource-drifts          
+describe-stack-resources                 | describe-stack-set                      
+describe-stack-set-operation             | describe-stacks                         
+describe-type                            | describe-type-registration              
+detect-stack-drift                       | detect-stack-resource-drift             
+detect-stack-set-drift                   | estimate-template-cost                  
+execute-change-set                       | get-generated-template                  
+get-stack-policy                         | get-template                            
+get-template-summary                     | import-stacks-to-stack-set              
+list-change-sets                         | list-exports                            
+list-generated-templates                 | list-hook-results                       
+list-imports                             | list-resource-scan-related-resources    
+list-resource-scan-resources             | list-resource-scans                     
+list-stack-instance-resource-drifts      | list-stack-instances                    
+list-stack-resources                     | list-stack-set-auto-deployment-targets  
+list-stack-set-operation-results         | list-stack-set-operations               
+list-stack-sets                          | list-stacks                             
+list-type-registrations                  | list-type-versions                      
+list-types                               | publish-type                            
+record-handler-progress                  | register-publisher                      
+register-type                            | rollback-stack                          
+set-stack-policy                         | set-type-configuration                  
+set-type-default-version                 | signal-resource                         
+start-resource-scan                      | stop-stack-set-operation                
+test-type                                | update-generated-template               
+update-stack                             | update-stack-instances                  
+update-stack-set                         | update-termination-protection           
+validate-template                        | package                                 
+deploy                                   | wait                                    
+help                                    
+
+=== Testing cloudformation get-generated-template ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --generated-template-name
+
+=== Testing cloudformation get-stack-policy ===
+
+An error occurred (AccessDenied) when calling the GetStackPolicy operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:GetStackPolicy on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:GetStackPolicy action
+
+=== Testing cloudformation get-template ===
+{
+    "TemplateBody": "AWSTemplateFormatVersion: '2010-09-09'\nDescription: >\n  Flag part 2\n\nParameters:\n  flagpt2:\n    Type: String\n    NoEcho: true\n\nResources:\n  AppDataStore:\n    Type: AWS::S3::Bucket\n    Properties:\n      BucketName: !Sub app-data-sandbox-bucket\n\n      ",
+    "StagesAvailable": [
+        "Original",
+        "Processed"
+    ]
+}
+
+=== Testing cloudformation get-template-summary ===
+
+An error occurred (AccessDenied) when calling the GetTemplateSummary operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:GetTemplateSummary on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:GetTemplateSummary action
+
+=== Testing cloudformation import-stacks-to-stack-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation list-change-sets ===
+
+An error occurred (AccessDenied) when calling the ListChangeSets operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:ListChangeSets on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:ListChangeSets action
+
+=== Testing cloudformation list-exports ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation list-generated-templates ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation list-hook-results ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --target-type, --target-id
+
+=== Testing cloudformation list-imports ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --export-name
+
+=== Testing cloudformation list-resource-scan-related-resources ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --resource-scan-id, --resources
+
+=== Testing cloudformation list-resource-scan-resources ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --resource-scan-id
+
+=== Testing cloudformation list-resource-scans ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation list-stack-instance-resource-drifts ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name, --stack-instance-account, --stack-instance-region, --operation-id
+
+=== Testing cloudformation list-stack-instances ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation list-stack-refactor-actions ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: argument operation: Invalid choice, valid choices are:
+
+activate-organizations-access            | activate-type                           
+batch-describe-type-configurations       | cancel-update-stack                     
+continue-update-rollback                 | create-change-set                       
+create-generated-template                | create-stack                            
+create-stack-instances                   | create-stack-set                        
+deactivate-organizations-access          | deactivate-type                         
+delete-change-set                        | delete-generated-template               
+delete-stack                             | delete-stack-instances                  
+delete-stack-set                         | deregister-type                         
+describe-account-limits                  | describe-change-set                     
+describe-change-set-hooks                | describe-generated-template             
+describe-organizations-access            | describe-publisher                      
+describe-resource-scan                   | describe-stack-drift-detection-status   
+describe-stack-events                    | describe-stack-instance                 
+describe-stack-resource                  | describe-stack-resource-drifts          
+describe-stack-resources                 | describe-stack-set                      
+describe-stack-set-operation             | describe-stacks                         
+describe-type                            | describe-type-registration              
+detect-stack-drift                       | detect-stack-resource-drift             
+detect-stack-set-drift                   | estimate-template-cost                  
+execute-change-set                       | get-generated-template                  
+get-stack-policy                         | get-template                            
+get-template-summary                     | import-stacks-to-stack-set              
+list-change-sets                         | list-exports                            
+list-generated-templates                 | list-hook-results                       
+list-imports                             | list-resource-scan-related-resources    
+list-resource-scan-resources             | list-resource-scans                     
+list-stack-instance-resource-drifts      | list-stack-instances                    
+list-stack-resources                     | list-stack-set-auto-deployment-targets  
+list-stack-set-operation-results         | list-stack-set-operations               
+list-stack-sets                          | list-stacks                             
+list-type-registrations                  | list-type-versions                      
+list-types                               | publish-type                            
+record-handler-progress                  | register-publisher                      
+register-type                            | rollback-stack                          
+set-stack-policy                         | set-type-configuration                  
+set-type-default-version                 | signal-resource                         
+start-resource-scan                      | stop-stack-set-operation                
+test-type                                | update-generated-template               
+update-stack                             | update-stack-instances                  
+update-stack-set                         | update-termination-protection           
+validate-template                        | package                                 
+deploy                                   | wait                                    
+help                                    
+
+=== Testing cloudformation list-stack-refactors ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: argument operation: Invalid choice, valid choices are:
+
+activate-organizations-access            | activate-type                           
+batch-describe-type-configurations       | cancel-update-stack                     
+continue-update-rollback                 | create-change-set                       
+create-generated-template                | create-stack                            
+create-stack-instances                   | create-stack-set                        
+deactivate-organizations-access          | deactivate-type                         
+delete-change-set                        | delete-generated-template               
+delete-stack                             | delete-stack-instances                  
+delete-stack-set                         | deregister-type                         
+describe-account-limits                  | describe-change-set                     
+describe-change-set-hooks                | describe-generated-template             
+describe-organizations-access            | describe-publisher                      
+describe-resource-scan                   | describe-stack-drift-detection-status   
+describe-stack-events                    | describe-stack-instance                 
+describe-stack-resource                  | describe-stack-resource-drifts          
+describe-stack-resources                 | describe-stack-set                      
+describe-stack-set-operation             | describe-stacks                         
+describe-type                            | describe-type-registration              
+detect-stack-drift                       | detect-stack-resource-drift             
+detect-stack-set-drift                   | estimate-template-cost                  
+execute-change-set                       | get-generated-template                  
+get-stack-policy                         | get-template                            
+get-template-summary                     | import-stacks-to-stack-set              
+list-change-sets                         | list-exports                            
+list-generated-templates                 | list-hook-results                       
+list-imports                             | list-resource-scan-related-resources    
+list-resource-scan-resources             | list-resource-scans                     
+list-stack-instance-resource-drifts      | list-stack-instances                    
+list-stack-resources                     | list-stack-set-auto-deployment-targets  
+list-stack-set-operation-results         | list-stack-set-operations               
+list-stack-sets                          | list-stacks                             
+list-type-registrations                  | list-type-versions                      
+list-types                               | publish-type                            
+record-handler-progress                  | register-publisher                      
+register-type                            | rollback-stack                          
+set-stack-policy                         | set-type-configuration                  
+set-type-default-version                 | signal-resource                         
+start-resource-scan                      | stop-stack-set-operation                
+test-type                                | update-generated-template               
+update-stack                             | update-stack-instances                  
+update-stack-set                         | update-termination-protection           
+validate-template                        | package                                 
+deploy                                   | wait                                    
+help                                    
+
+=== Testing cloudformation list-stack-resources ===
+
+An error occurred (AccessDenied) when calling the ListStackResources operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:ListStackResources on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:ListStackResources action
+
+=== Testing cloudformation list-stack-set-auto-deployment-targets ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation list-stack-set-operation-results ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name, --operation-id
+
+=== Testing cloudformation list-stack-set-operations ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation list-stack-sets ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation list-stacks ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation list-type-registrations ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation list-type-versions ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation list-types ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation package ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --template-file, --s3-bucket
+
+=== Testing cloudformation publish-type ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation record-handler-progress ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --bearer-token, --operation-status
+
+=== Testing cloudformation register-publisher ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation register-type ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --type-name, --schema-handler-package
+
+=== Testing cloudformation rollback-stack ===
+
+An error occurred (AccessDenied) when calling the RollbackStack operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:RollbackStack on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:RollbackStack action
+
+=== Testing cloudformation set-stack-policy ===
+
+An error occurred (AccessDenied) when calling the SetStackPolicy operation: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: cloudformation:SetStackPolicy on resource: arn:aws:cloudformation:ap-southeast-1:533267020068:stack/pawxy-sandbox-dec86ef2/4bda2be0-9b9f-11f0-988d-02bdff33e57d because no identity-based policy allows the cloudformation:SetStackPolicy action
+
+=== Testing cloudformation set-type-configuration ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --configuration
+
+=== Testing cloudformation set-type-default-version ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation signal-resource ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --logical-resource-id, --unique-id, --status
+
+=== Testing cloudformation start-resource-scan ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation stop-stack-set-operation ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name, --operation-id
+
+=== Testing cloudformation test-type ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation update-generated-template ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --generated-template-name
+
+=== Testing cloudformation update-stack ===
+
+An error occurred (ValidationError) when calling the UpdateStack operation: Either Template URL or Template Body must be specified.
+
+=== Testing cloudformation update-stack-instances ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name, --regions
+
+=== Testing cloudformation update-stack-set ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: the following arguments are required: --stack-set-name
+
+=== Testing cloudformation update-termination-protection ===
+
+Parameter validation failed:
+Missing required parameter in input: "EnableTerminationProtection"
+
+=== Testing cloudformation validate-template ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --stack-name, pawxy-sandbox-dec86ef2
+
+=== Testing cloudformation wait ===
+usage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+aws: error: argument subcommand: Invalid choice, valid choices are:
+
+change-set-create-complete               | stack-create-complete                   
+stack-delete-complete                    | stack-exists                            
+stack-import-complete                    | stack-rollback-complete                 
+stack-update-complete                    | type-registration-complete              
+

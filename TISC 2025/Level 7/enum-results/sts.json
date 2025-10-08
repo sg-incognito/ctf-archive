@@ -1,0 +1,1 @@
+{"sts":["{\"GetCallerIdentity\":{\"Account\":\"533267020068\",\"Arn\":\"arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d\",\"UserId\":\"AROAXYKJQ7ESAFUK2HFDU:i-0dd2babff03daf09d\",\"ResultMetadata\":{}}}"]}

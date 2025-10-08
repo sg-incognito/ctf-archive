@@ -1,0 +1,8 @@
+{
+  "url": "https://passkey.chals.tisc25.ctf.sg/login",
+  "username": "testuser",
+  "credential_id": "Pq88gzFviW6TSGvyegzeQWwPZ3hk4n0LGQ9BEyVlfYc",
+  "authenticator_data": "xwgw9416p0vIny4ypoanXkcXJdFxRlkGzC1FwfdONH8FAAAADQ",
+  "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoieWRzNmthY1duSk9uNWRBdlBSRnJDTFNIZy04bDJnUlZEOXFzYmh0YXpJUSIsIm9yaWdpbiI6Imh0dHBzOi8vcGFzc2tleS5jaGFscy50aXNjMjUuY3RmLnNnIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+  "signature": "MEUCIE0pMUjYxLPaPWQCVkDB8Y0pybS842SE_u4yWbuXYlyXAiEAheTj4DQOnuxhKp6q025wSmmr6yg5cir705-DN55nDOo"
+}
