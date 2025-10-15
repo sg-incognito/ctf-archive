@@ -1,0 +1,315 @@
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-03580049200b295a0",
+            "OwnerId": "533267020068",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2025-09-23T17:08:32.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0d405459e7b5e0fba"
+                            }
+                        }
+                    ],
+                    "ClientToken": "terraform-2025092317083127810000000c",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::533267020068:instance-profile/internal-ec2",
+                        "Id": "AIPAXYKJQ7ESB5WJU52GM"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-09-23T17:08:32.000Z",
+                                "AttachmentId": "eni-attach-001a7a0fdb91ff4f6",
+                                "DeleteOnTermination": false,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-01a9216c63a2cf89d",
+                                    "GroupName": "internal-ec2-sg"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:34:29:16:59:29",
+                            "NetworkInterfaceId": "eni-09b43256b74cea5cb",
+                            "OwnerId": "533267020068",
+                            "PrivateDnsName": "ip-172-31-73-190.ap-southeast-1.compute.internal",
+                            "PrivateIpAddress": "172.31.73.190",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-73-190.ap-southeast-1.compute.internal",
+                                    "PrivateIpAddress": "172.31.73.190"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0cbdcb6041a1c620d",
+                            "VpcId": "vpc-0d6db42de22b64d93",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-01a9216c63a2cf89d",
+                            "GroupName": "internal-ec2-sg"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "claws-internal"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-09-23T17:08:32.000Z",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "uefi",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0dd2babff03daf09d",
+                    "ImageId": "ami-02c7683e4ca3ebf58",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-172-31-73-190.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "claws-backend",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.small",
+                    "LaunchTime": "2025-09-23T17:27:02.000Z",
+                    "Placement": {
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0cbdcb6041a1c620d",
+                    "VpcId": "vpc-0d6db42de22b64d93",
+                    "PrivateIpAddress": "172.31.73.190"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0fbfab2e9aff55de7",
+            "OwnerId": "533267020068",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2025-09-23T17:06:57.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-09241565ea5846800"
+                            }
+                        }
+                    ],
+                    "ClientToken": "terraform-2025092317065560540000000b",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::533267020068:instance-profile/claws-ec2",
+                        "Id": "AIPAXYKJQ7ESCQEXJM52A"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-13-229-55-236.ap-southeast-1.compute.amazonaws.com",
+                                "PublicIp": "13.229.55.236"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2025-09-23T17:06:56.000Z",
+                                "AttachmentId": "eni-attach-0bb7c7b6285aa0848",
+                                "DeleteOnTermination": false,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0f5a2fb54c182a3d5",
+                                    "GroupName": "web_ec2_sg"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:b4:26:58:e3:af",
+                            "NetworkInterfaceId": "eni-00ba2843a0f52e53f",
+                            "OwnerId": "533267020068",
+                            "PrivateDnsName": "ip-172-31-43-25.ap-southeast-1.compute.internal",
+                            "PrivateIpAddress": "172.31.43.25",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-13-229-55-236.ap-southeast-1.compute.amazonaws.com",
+                                        "PublicIp": "13.229.55.236"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-43-25.ap-southeast-1.compute.internal",
+                                    "PrivateIpAddress": "172.31.43.25"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0eab2f2544f571c56",
+                            "VpcId": "vpc-0d6db42de22b64d93",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0f5a2fb54c182a3d5",
+                            "GroupName": "web_ec2_sg"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "claws-web"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-09-23T17:06:56.000Z",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "uefi",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0dd33406f2f2b2acd",
+                    "ImageId": "ami-02c7683e4ca3ebf58",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-172-31-43-25.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "ec2-13-229-55-236.ap-southeast-1.compute.amazonaws.com",
+                    "StateTransitionReason": "",
+                    "KeyName": "claws-web",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.small",
+                    "LaunchTime": "2025-09-23T17:27:54.000Z",
+                    "Placement": {
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0eab2f2544f571c56",
+                    "VpcId": "vpc-0d6db42de22b64d93",
+                    "PrivateIpAddress": "172.31.43.25",
+                    "PublicIpAddress": "13.229.55.236"
+                }
+            ]
+        }
+    ]
+}

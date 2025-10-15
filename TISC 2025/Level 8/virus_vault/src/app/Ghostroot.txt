@@ -1,0 +1,1 @@
+Species: Ghostroot<br>Description: Hidden in rootkits, this virus is rarely seen outside of the kernel

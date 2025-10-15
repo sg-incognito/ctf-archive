@@ -1,0 +1,1 @@
+{"amplify":["{\"ListApps\":\"operation error Amplify: ListApps, https response error StatusCode: 403, RequestID: c30977a4-d5bc-4bac-a26b-5ec5e985b4cb, api error AccessDeniedException: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: amplify:ListApps on resource: arn:aws:amplify:ap-southeast-1:533267020068:apps/*\"}"]}

@@ -1,0 +1,1 @@
+{"eks":["{\"ListClusters\":\"operation error EKS: ListClusters, https response error StatusCode: 403, RequestID: a8f6fe37-7a8b-46ba-a8d7-103c1d7a99a2, api error AccessDeniedException: User: arn:aws:sts::533267020068:assumed-role/internal-ec2/i-0dd2babff03daf09d is not authorized to perform: eks:ListClusters on resource: arn:aws:eks:ap-southeast-1:533267020068:cluster/*\"}"]}

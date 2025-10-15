@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virus Vault™</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 30px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .box {
+            width: 300px;
+            padding: 20px;
+            margin: 0 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+        }
+        .message-box {
+            margin-top: 40px;
+            padding: 15px;
+            width: 60%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #007BFF;
+            border-radius: 10px;
+            background-color: #f0f8ff;
+            color: #007BFF;
+            font-size: 16px;
+        }
+        .disclaimer {
+            margin-top: 60px;
+            font-size: 12px;
+            color: #777;
+        }
+        .disclaimer a {
+            color: #555;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to the Virus Vault™!</h1>
+
+<div class="container">
+    <!-- Left box: Storage -->
+    <div class="box">
+        <form action="/" method="get">
+            <h2>Store a virus sample</h2>
+            <label for="store-name">Name:</label><br>
+            <input type="text" id="store-name" name="name" required><br>
+
+            <label for="species">Species:</label><br>
+            <select id="species" name="species" required>
+                <option value="Ghostroot">Ghostroot</option>
+                <option value="IronHydra">IronHydra</option>
+                <option value="DarkFurnace">DarkFurnace</option>
+                <option value="Voltspike">Voltspike</option>
+            </select><br>
+            <input type="hidden" name="action" value="store">
+            <input type="submit" value="Store">
+        </form>
+    </div>
+
+    <!-- Right box: Fetching -->
+    <div class="box">
+        <form action="/" method="get">
+            <h2>Retrieve <area shape="" coords="" href="" alt=""> virus sample</h2>
+            <label for="fetch-id">ID:</label><br>
+            <input type="text" id="fetch-id" name="id" required><br>
+            <input type="hidden" name="action" value="fetch">
+            <input type="submit" value="Fetch">
+        </form>
+    </div>
+</div>
+
+<!-- Message Box -->
+<div class="message-box" id="message-box">
+    {{output}}
+</div>
+
+<!-- Disclaimer -->
+<div class="disclaimer">
+    We adhere to strict protocols here at Virus Vault™. Find out more <a href="/source.php" target="_blank">here</a>.
+</div>
+
+</body>
+</html>
